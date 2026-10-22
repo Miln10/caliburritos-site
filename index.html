@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cali Burritos | Burritos e comida mexicana em Icaraí, Niterói</title>
+<meta name="description" content="Cali Burritos: burritos, quesadilhas, nachos e opções veganas em Icaraí, Niterói (RJ). Entrega em 20 a 45 minutos. Peça online ou pelo WhatsApp.">
+<link rel="canonical" href="https://sobre.caliburritos.com.br/">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:title" content="Cali Burritos | Burritos e comida mexicana em Icaraí, Niterói">
+<meta property="og:description" content="Burritos, quesadilhas, nachos e opções veganas em Icaraí. Entrega em 20 a 45 minutos.">
+<meta property="og:url" content="https://sobre.caliburritos.com.br/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="https://sobre.caliburritos.com.br/img/logo.webp">
+<meta name="theme-color" content="#e33e1a">
+<link rel="icon" href="img/logo.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+:root{
+  /* identidade Cali: laranja do logo, amarelo creme dos banners, display condensado em caixa alta */
+  --bg:#fff6ea; --fg:#2a1a12; --muted:#6b4f3f; --line:#ecd3b8;
+  --brand:#e33e1a; --brand-deep:#b02f08; --sun:#fbbe20; --on-brand:#fff3d6;
+  --accent:#b02f08; --accent-fg:#fff3d6; --card:#ffffff;
+  --font-display:"Anton","Impact","Arial Narrow",sans-serif;
+  --font-body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1f130d; --fg:#fff1dd; --muted:#d3b79f; --line:#4a2e20;
+  --accent:#ff7a55; --accent-fg:#2a1208; --card:#2b1b12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1f130d; --fg:#fff1dd; --muted:#d3b79f; --line:#4a2e20;
+  --accent:#ff7a55; --accent-fg:#2a1208; --card:#2b1b12; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.6 var(--font-body)}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.inner{max-width:46rem;margin:0 auto}
+header{background:var(--brand);color:var(--on-brand);padding-block:2.5rem 3rem;border-bottom:8px solid var(--sun)}
+.brandrow{display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem}
+.brandrow img{width:84px;height:84px;border-radius:18px;border:3px solid var(--sun);display:block}
+.kicker{font-size:.85rem;letter-spacing:.16em;text-transform:uppercase;color:var(--sun);font-weight:700;margin:0}
+h1,h2,h3{font-family:var(--font-display);font-weight:400;text-transform:uppercase;line-height:1.02;text-wrap:balance;margin:0;letter-spacing:.01em}
+h1{font-size:clamp(3rem,13vw,5.5rem);color:var(--sun)}
+h2{font-size:2rem;margin-bottom:.9rem;color:var(--brand)}
+.lead{font-size:1.2rem;margin:1.25rem 0 1.5rem;max-width:36rem}
+.cta{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.8rem 1.4rem;font-weight:700;text-decoration:none;border:3px solid var(--sun);color:var(--sun);border-radius:999px}
+.btn.primary{background:var(--sun);color:#3a1405}
+.btn:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+main{padding-block:1rem 3rem}
+section{padding-top:2.25rem}
+p{margin:0 0 1rem}
+ul{padding-left:1.2rem;margin:0 0 1rem}
+li{margin-bottom:.35rem}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1.25rem;background:var(--card);border:2px solid var(--line);border-radius:14px;padding:1.25rem;margin:0}
+.facts dt{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.facts dd{margin:.15rem 0 0;min-width:0;overflow-wrap:anywhere}
+.fav{display:flex;flex-wrap:wrap;gap:1rem;margin:0 0 1.5rem}
+.fav figure{margin:0;flex:1 1 9rem;max-width:12rem;background:var(--card);border:2px solid var(--line);border-radius:14px;overflow:hidden}
+.fav img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+.fav figcaption{font-family:var(--font-display);text-transform:uppercase;padding:.5rem .7rem;font-size:1rem;line-height:1.15}
+.menu{margin-bottom:1rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.25rem}
+.menu h3{font-size:1.25rem;margin:0 0 .4rem;color:var(--accent)}
+.menu ul{list-style:none;padding:0;margin:0}
+details{border-top:2px solid var(--line);padding:.9rem 0}
+details:last-of-type{border-bottom:2px solid var(--line)}
+summary{cursor:pointer;font-weight:700}
+details p{margin:.6rem 0 0;color:var(--muted)}
+a{color:var(--accent)}
+footer{background:var(--brand-deep);color:var(--on-brand);padding-block:1.5rem;font-size:.95rem}
+footer a{color:var(--sun)}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://sobre.caliburritos.com.br/#restaurant",
+  "name": "Cali Burritos",
+  "url": "https://sobre.caliburritos.com.br/",
+  "description": "Burritos, quesadilhas, nachos e opções veganas em Icaraí, Niterói. Entrega em 20 a 45 minutos.",
+  "servesCuisine": ["Mexicana", "Burritos", "Tex-Mex", "Vegana"],
+  "priceRange": "$$",
+  "telephone": "+55 21 98797-0479",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Miguel de Frias, 51",
+    "addressLocality": "Niterói",
+    "addressRegion": "RJ",
+    "addressCountry": "BR",
+    "postalCode": "24220-008"
+  },
+  "geo": {"@type": "GeoCoordinates", "latitude": -22.9029887, "longitude": -43.1155961},
+  "areaServed": [{"@type": "Place", "name": "Icaraí, Niterói"}, {"@type": "City", "name": "Niterói"}],
+  "hasMenu": "https://www.caliburritos.com.br/",
+  "acceptsReservations": false,
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "11:00",
+    "closes": "23:00"
+  }],
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {"@type": "EntryPoint", "urlTemplate": "https://www.caliburritos.com.br/", "actionPlatform": ["http://schema.org/DesktopWebPlatform","http://schema.org/MobileWebPlatform"]},
+    "deliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+  },
+  "sameAs": [
+    "https://www.caliburritos.com.br/",
+    "https://www.instagram.com/caliburritosdelivery/",
+    "https://www.ifood.com.br/delivery/niteroi-rj/cali-burritos---comida-mexicana-icarai/62065423-a534-48e2-9ffe-01cbcabb7e59",
+    "https://99app.com/99food/rio-de-janeiro/cali-burritos-bowls-nachos/5764612869250089347/",
+    "https://www.google.com/maps?cid=12371285103696490933"
+  ],
+  "hasMap": "https://www.google.com/maps?cid=12371285103696490933"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Onde fica o Cali Burritos?", "acceptedAnswer": {"@type": "Answer", "text": "Na Rua Miguel de Frias, 51, em Icaraí, Niterói (RJ)."}},
+    {"@type": "Question", "name": "O Cali Burritos tem opções veganas?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. O cardápio tem a categoria Vegan & Veggies, com burritos e quesadilhas vegetarianas e veganas."}},
+    {"@type": "Question", "name": "Quanto tempo leva a entrega?", "acceptedAnswer": {"@type": "Answer", "text": "A estimativa é de 20 a 45 minutos. O pedido mínimo é de R$ 25,00."}},
+    {"@type": "Question", "name": "Como faço um pedido?", "acceptedAnswer": {"@type": "Answer", "text": "Pelo cardápio digital em www.caliburritos.com.br, pelo iFood, pelo 99Food ou pelo WhatsApp +55 21 98797-0479."}}
+  ]
+}
+</script>
+</head>
+<body>
+<header class="gut"><div class="inner">
+  <div class="brandrow"><img src="img/logo.webp" alt="Logo do Cali Burritos" width="84" height="84"><p class="kicker">Icaraí, Niterói · RJ</p></div>
+  <h1>Cali Burritos</h1>
+  <p class="lead">Burritos, quesadilhas, nachos e mac and cheese em Icaraí. Há opções veganas e vegetarianas. A entrega leva de 20 a 45 minutos.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://www.caliburritos.com.br/">Ver cardápio e pedir</a>
+    <a class="btn" href="https://wa.me/5521987970479">WhatsApp</a>
+  </div>
+</div></header>
+<main class="gut"><div class="inner">
+<section aria-labelledby="info">
+  <h2 id="info">Endereço e horário</h2>
+  <dl class="facts">
+    <div><dt>Endereço</dt><dd>Rua Miguel de Frias, 51, Icaraí, Niterói, RJ, 24220-008 · <a href="https://www.google.com/maps?cid=12371285103696490933">Ver no mapa</a></dd></div>
+    <div><dt>Telefone e WhatsApp</dt><dd>+55 21 98797-0479</dd></div>
+    <div><dt>Horário</dt><dd>Todos os dias, a partir das 11h</dd></div>
+    <div><dt>Entrega</dt><dd>20 a 45 min · pedido mínimo R$ 25,00</dd></div>
+  </dl>
+</section>
+
+<section aria-labelledby="sobre">
+  <h2 id="sobre">O que é o Cali Burritos</h2>
+  <p>O Cali Burritos é um restaurante de comida mexicana em Icaraí, Niterói. O burrito é o prato principal, feito com tortilha levemente tostada, queijo cheddar, salada, molhos e, claro, as deliciosas proteínas da casa.</p>
+  <p>Também servimos quesadilhas, nachos com molhos, American Mac and Cheese e combos para dividir.</p>
+</section>
+
+<section aria-labelledby="cardapio">
+  <h2 id="cardapio">O que tem no cardápio</h2>
+  <div class="fav">
+    <figure><img src="img/combo-familia.webp" alt="Combo Família: 2 burritos e nacho médio" width="240" height="240" loading="lazy"><figcaption>Combo Família</figcaption></figure>
+    <figure><img src="img/cali-chicken.webp" alt="Cali Chicken Burrito" width="240" height="240" loading="lazy"><figcaption>Cali Chicken Burrito</figcaption></figure>
+  </div>
+  <div class="menu">
+    <div><h3>Burritos</h3><ul><li>Cali Chicken Burrito (frango marinado e batata frita)</li><li>Chili Classic Burrito (arroz e chili com carne)</li><li>Pulled Pork Burrito (porco desfiado)</li></ul></div>
+    <div><h3>Quesadilhas</h3><ul><li>Quesadilha de Frango</li><li>Quesadilha de Chili com Carne</li><li>Quesadilha Vegetariana</li></ul></div>
+    <div><h3>Para dividir</h3><ul><li>Nacho para 2, com quatro molhos</li><li>Combo Família: 2 burritos e nacho médio</li><li>Combo Leve: quesadilha e nacho médio</li></ul></div>
+    <div><h3>Outros</h3><ul><li>American Mac and Cheese (300 g)</li><li>Molhos e bebidas</li><li>Vegan &amp; Veggies</li></ul></div>
+  </div>
+  <p>Preços e disponibilidade do dia ficam no <a href="https://www.caliburritos.com.br/">cardápio digital</a>.</p>
+</section>
+
+<section aria-labelledby="faq">
+  <h2 id="faq">Perguntas frequentes</h2>
+  <details><summary>Onde fica o Cali Burritos?</summary><p>Na Rua Miguel de Frias, 51, em Icaraí, Niterói (RJ).</p></details>
+  <details><summary>O Cali Burritos tem opções veganas?</summary><p>Sim. O cardápio tem a categoria Vegan &amp; Veggies, com burritos e quesadilhas vegetarianas e veganas.</p></details>
+  <details><summary>Quanto tempo leva a entrega?</summary><p>A estimativa é de 20 a 45 minutos. O pedido mínimo é de R$ 25,00.</p></details>
+  <details><summary>Como faço um pedido?</summary><p>Pelo cardápio digital em <a href="https://www.caliburritos.com.br/">www.caliburritos.com.br</a>, pelo <a href="https://www.ifood.com.br/delivery/niteroi-rj/cali-burritos---comida-mexicana-icarai/62065423-a534-48e2-9ffe-01cbcabb7e59">iFood</a>, pelo <a href="https://99app.com/99food/rio-de-janeiro/cali-burritos-bowls-nachos/5764612869250089347/">99Food</a> ou pelo WhatsApp +55 21 98797-0479.</p></details>
+</section>
+</div></main>
+<footer class="gut"><div class="inner">Cali Burritos · Rua Miguel de Frias, 51, Icaraí, Niterói, RJ · +55 21 98797-0479 · <a href="https://www.instagram.com/caliburritosdelivery/">Instagram</a> · <a href="https://www.ifood.com.br/delivery/niteroi-rj/cali-burritos---comida-mexicana-icarai/62065423-a534-48e2-9ffe-01cbcabb7e59">iFood</a> · <a href="https://99app.com/99food/rio-de-janeiro/cali-burritos-bowls-nachos/5764612869250089347/">99Food</a></div></footer>
+</body>
+</html>
